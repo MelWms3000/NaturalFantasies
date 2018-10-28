@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-10-27_2010",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "agencym4",
       "title": "AgencyM4",
@@ -873,7 +873,10 @@
     "page1.html": {
       "settings": {
         "title": "Page 1",
-        "order": 2
+        "order": 2,
+        "header_custom": "\n<SCRIPT>\nfunction passWord() {\nvar testV = 1;\nvar pass1 = prompt('You must be 18 years of age or older to enter. Please enter your password',' ');\nwhile (testV < 3) {\nif (!pass1) \nhistory.go(-1);\nif (pass1.toLowerCase() == \"WDBM2018!\") {\nalert('Welcome Member. Enjoy!');\nwindow.open('page1.html');\nbreak;\n} \ntestV+=1;\nvar pass1 = \nprompt('Access Denied - Password Incorrect, Please Try Again.','Password');\n}\nif (pass1.toLowerCase()!=\"password\" & testV ==3) \nhistory.go(-1);\nreturn \" \";\n} \n</SCRIPT>\n<CENTER>\n<FORM>\n<input type=\"button\" value=\"You must be 18 years of age or older. Click here to enter.\" onClick=\"passWord()\">\n</FORM>\n</CENTER>",
+        "footer_custom": "\n<SCRIPT>\nfunction passWord() {\nvar testV = 1;\nvar pass1 = prompt('You must be 18 years of age or older to enter. Please enter your password',' ');\nwhile (testV < 3) {\nif (!pass1) \nhistory.go(-1);\nif (pass1.toLowerCase() == \"WDBM2018!\") {\nalert('Welcome Member. Enjoy!');\nwindow.open('page1.html');\nbreak;\n} \ntestV+=1;\nvar pass1 = \nprompt('Access Denied - Password Incorrect, Please Try Again.','Password');\n}\nif (pass1.toLowerCase()!=\"password\" & testV ==3) \nhistory.go(-1);\nreturn \" \";\n} \n</SCRIPT>\n<CENTER>\n<FORM>\n<input type=\"button\" value=\"You must be 18 years of age or older. Click here to enter.\" onClick=\"passWord()\">\n</FORM>\n</CENTER>",
+        "html_before": "\n<SCRIPT>\nfunction passWord() {\nvar testV = 1;\nvar pass1 = prompt('You must be 18 years of age or older to enter. Please enter your password',' ');\nwhile (testV < 3) {\nif (!pass1) \nhistory.go(-1);\nif (pass1.toLowerCase() == \"WDBM2018!\") {\nalert('Welcome Member. Enjoy!');\nwindow.open('page1.html');\nbreak;\n} \ntestV+=1;\nvar pass1 = \nprompt('Access Denied - Password Incorrect, Please Try Again.','Password');\n}\nif (pass1.toLowerCase()!=\"password\" & testV ==3) \nhistory.go(-1);\nreturn \" \";\n} \n</SCRIPT>\n<CENTER>\n<FORM>\n<input type=\"button\" value=\"You must be 18 years of age or older. Click here to enter.\" onClick=\"passWord()\">\n</FORM>\n</CENTER>"
       },
       "components": [
         {
