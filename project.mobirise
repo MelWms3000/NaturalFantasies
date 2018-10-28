@@ -2320,7 +2320,7 @@
           "_anchor": "custom-html-9",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
-            "<script>\nfunction passWord() {\nvar testV = 1;\nvar pass1 = prompt('You must be 18 years of age or older to enter. Please enter your password',' ');\nwhile (testV < 3) {\nif (!pass1) \nhistory.go(-1);\nif (pass1.toLowerCase() == \"wdbm2018!\") {\nalert('Welcome Member. Enjoy!');\nwindow.open('https://fs29.formsite.com/mmwllm11/form7/index.html\n');\nbreak;\n} \ntestV+=1;\nvar pass1 = \nprompt('Access Denied - Password Incorrect, Please Try Again.','Password');\n}\nif (pass1.toLowerCase()!=\"password\" & testV ==3) \nhistory.go(-1);\nreturn \" \";\n} \n</script>"
+            "<script>\nfunction passWord() {\nvar testV = 1;\nvar pass1 = prompt('You must be 18 years of age or older to enter. Please enter your password',' ');\nwhile (testV < 3) {\nif (!pass1) \nhistory.go(-1);\nif (pass1.toLowerCase() == \"wdbm2018!\") {\nalert('Welcome Member. Enjoy!');\nwindow.open('https://fs29.formsite.com/mmwllm11/form7/index.html');\nbreak;\n} \ntestV+=1;\nvar pass1 = \nprompt('Access Denied - Password Incorrect, Please Try Again.','Password');\n}\nif (pass1.toLowerCase()!=\"password\" & testV ==3) \nhistory.go(-1);\nreturn \" \";\n} \n</script>"
           ]
         },
         {
