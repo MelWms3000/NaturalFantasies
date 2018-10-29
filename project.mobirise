@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-10-27_2010",
-    "currentPage": "page3.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "agencym4",
       "title": "AgencyM4",
@@ -33,7 +33,7 @@
     "versionFirst": "4.8.1",
     "siteFonts": [],
     "uniqCompNum": 23,
-    "versionPublish": "4.8.1",
+    "versionPublish": "4.8.6",
     "mcShopcart": {
       "email": "mmwllm11@gmail.com"
     },
